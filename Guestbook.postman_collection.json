@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "99d4311a-1115-44db-8140-6c43cca327ff",
+		"name": "Guestbook",
+		"description": "guestbook",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "delete data",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "localhost:3000/15",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put data",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "prefix",
+							"value": "almukarrom",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "ngek",
+							"type": "text"
+						},
+						{
+							"key": "suffix",
+							"value": "phd",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "haji",
+							"type": "text"
+						},
+						{
+							"key": "category_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "14045",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ean246@yahoo.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/15",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "prefix",
+							"value": "almukarrom",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "ngek",
+							"type": "text"
+						},
+						{
+							"key": "suffix",
+							"value": "phd",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "haji",
+							"type": "text"
+						},
+						{
+							"key": "category_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "14045",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ean246@yahoo.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "fc4dcebe-7df6-4a61-a1e7-4b76e1a95055",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "c5eadda9-86b8-4ee6-84ec-b86506b10fe2",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
